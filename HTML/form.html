@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname">fristname</label><br>
+        <input type="text" id="fname" placeholder="enter your fname" name="fname" required><br>
+        <label for="lname">lastname</label><br>
+        <input type="text" id="lname" placeholder="enter your lname" name="lname" required autofocus><br>
+        <input type="submit" value="submit"><br>
+        <label for="bio">About yourself</label><br>
+        <!-- <input type="text" id="bio" name="bio"><br> -->
+        <textarea rows="10" cols="30"></textarea><br>
+    </form>
+    <form enctype="multipart/form-data">
+        <input type="file" multiple>
+    </form>
+    <form autocomplete="on">
+        <select multiple>
+            <option value="">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female" selected>Female</option>
+            <option value="others">Others</option>
+        </select>
+    </form>
+    <form method="POST">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" checked>
+        <label for="female">Female</label><br>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others">Others</label><br>
+    </form>
+    <form action="act_login.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+        <label type="vehicle1">I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="car"checked>
+        <label type="vehicle2">I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="boat">
+        <label type="vehicle3">I have a boat</label><br>
+    </form>
+
+</body>
+</html>
