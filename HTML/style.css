@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar nav li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar nav a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .sidebar nav a:hover {
+    color: #23527c;
+  }
+  
+  .sidebar nav li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  Add some basic styling to the name at the top of the sidebar
+  .sidebar > span {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .infocontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .hello {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #112b42;
+  }
+  
+  .devpic {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .devpic img {
+    width: 50%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
